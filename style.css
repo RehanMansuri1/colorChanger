@@ -1,0 +1,41 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+.header {
+    width: 99.8%;
+    height: 10vh;
+    background-color: grey;
+}
+
+.div-button {
+    padding-left: 20%;
+    padding-top: 2%;
+    align-self: center; 
+    width: 60%; 
+    height: 100%; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.button {
+    width: 200px; 
+    height: 100px; 
+    border: 2px black solid;
+    cursor: pointer;
+}
+#blue{
+    background-color: blue;
+}
+#grey{
+    background-color: gray;
+}
+#white{
+    background-color: white;
+}
+#yellow{
+    background-color: yellow;
+}
